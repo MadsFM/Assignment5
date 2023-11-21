@@ -3,7 +3,11 @@ package BE;
 public class GradeInfo {
 
 
+
     private int grade;
+    private String subject;
+    private double average;
+
 
     public GradeInfo(String subject, int grade){
         this.subject = subject;
