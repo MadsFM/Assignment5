@@ -4,6 +4,8 @@ public class GradeInfo {
 
     private String subject;
 
+    private double average;
+
     public GradeInfo(String subject, int grade){
         this.subject = subject;
         this.grade = grade;
