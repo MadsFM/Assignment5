@@ -3,7 +3,6 @@ package BE;
 public class GradeInfo {
 
     private String subject;
-    private int grade;
 
     public GradeInfo(String subject, int grade){
         this.subject = subject;
